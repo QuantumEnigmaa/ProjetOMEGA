@@ -99,39 +99,26 @@ footer {
     align-items: center; /* Les éléments portés sont centrés à la verticale */
     position: relative; 
     bottom: 0px; /* Bas */
-    height: 100px; /* Hauteur */
+    height: 10px; /* Hauteur */
     width: 100%; /* Le pied de page occupe toute la largeur */ 
 }
 
 
-#footerHaut p {
-    font-size: large;
+.row{
     background-color: gray; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align: center; /* Texte centré */
-    margin-bottom: 0px;
+    text-align: center;
 }
 
-#footerBas p {
-    font-size: large;
-    background-color: #2d2d2d; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align:center; /* Texte centré */
-}
-
-
-#footerHaut p {
-    font-size: large;
+.card-body{
     background-color: gray; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align: center; /* Texte centré */
-    margin-bottom: 0px;
 }
 
-#footerBas p {
-    font-size: large;
-    background-color: #2d2d2d; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align:center; /* Texte centré */
+
+footer h3 {
+    color: black; /* Couleur du texte */
 }
 
+
+footer a{
+    color: #2d2d2d; /* Couleur du lien identique à celle du conteneur */
+}
