@@ -1,0 +1,48 @@
+/* 
+    Created on : 2 juin 2020, 15:43:35
+    Author     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
+*/
+
+
+* {
+    font-family: 'Calibri'; /* Police par défaut */
+    box-sizing: border-box; /* Les tailles de conteneurs incluent bordures et remplissages */
+    margin: 0; /* Mise à 0 des marges externes */
+    padding: 0; /* Mise à 0 des marges internes */
+    text-decoration: none; /* Suppression de la mise en forme habituelle des liens (soulignements) */
+}
+
+/* Définiion de la police "Calibri" */
+@font-face{
+    font-family: "Calibri";
+    src : url('css/polices/Calibri.ttf') format("truetype");
+}
+
+body {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    flex-direction: column; /* les éléments sont empilés */
+    align-items: center; /* les éléments portés sont centrés à la verticale */ 
+    width: 100% /* La page occupe toute la largeur */
+}
+
+footer {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    align-items: center; /* Les éléments portés sont centrés à la verticale */
+    position: relative; /* Le conteneur est fixé en fonction de ses coordonnées (à 0px du bas) */
+    bottom: 0px; /* Bas */
+    height: 100px; /* Hauteur */
+    width: 100%; /* Le pied de page occupe toute la largeur */ 
+    background-color:#2d2d2d; /* Couleur de fond */
+    color: #bbb; /* Couleur du texte */
+    text-align:center; /* Texte centré */
+}
+
+footer p {
+    font-size: large; /* Le texte est grossi en L */
+}
+
+footer a{
+    color: inherit; /* Couleur du lien identique à celle du conteneur */
+}
