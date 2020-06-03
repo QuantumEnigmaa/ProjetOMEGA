@@ -20,8 +20,8 @@ and open the template in the editor.
 }
 
 .panneaux {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 380px;
+    margin-right: 380px;
     background-image: url(../images/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
 }
 
@@ -59,4 +59,11 @@ and open the template in the editor.
 
 #desc1, #desc2 {
     padding-left: 20px;
+}
+
+.news{
+    background-image: url(../images/vieux-panneau-en-bois-18882072_1.jpg);
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
 }

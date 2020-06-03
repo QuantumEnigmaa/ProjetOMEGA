@@ -17,7 +17,7 @@
 /* Définiion de la police "Calibri" */
 @font-face{
     font-family: "Montserrat";
-    src : url('polices/Montserrat-Regular.ttf') format("truetype");
+    src : url('../polices/Montserrat-Regular.ttf') format("truetype");
 }
 
 body {
