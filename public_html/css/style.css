@@ -1,8 +1,7 @@
 /* 
     Created on : 2 juin 2020, 15:43:35
-    Author     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
+    Authors     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
 */
-
 
 * {
     font-family: 'Calibri'; /* Police par défaut */
@@ -12,12 +11,13 @@
     text-decoration: none; /* Suppression de la mise en forme habituelle des liens (soulignements) */
 }
 
-/* Définiion de la police "Calibri" */
+/* Définition de la police "Calibri" */
 @font-face{
     font-family: "Calibri";
     src : url('css/polices/Calibri.ttf') format("truetype");
 }
 
+/*Adaptation de la page*/
 body {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
@@ -26,11 +26,19 @@ body {
     width: 100% /* La page occupe toute la largeur */
 }
 
+#nav-flex {
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 footer {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
     align-items: center; /* Les éléments portés sont centrés à la verticale */
-    position: relative; /* Le conteneur est fixé en fonction de ses coordonnées (à 0px du bas) */
+    position: relative; 
     bottom: 0px; /* Bas */
     height: 100px; /* Hauteur */
     width: 100%; /* Le pied de page occupe toute la largeur */ 
@@ -39,10 +47,19 @@ footer {
     text-align:center; /* Texte centré */
 }
 
-footer p {
-    font-size: large; /* Le texte est grossi en L */
+
+#footerHaut p {
+    font-size: large;
+    background-color: gray; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Texte centré */
+    margin-bottom: 0px;
 }
 
-footer a{
-    color: inherit; /* Couleur du lien identique à celle du conteneur */
+#footerBas p {
+    font-size: large;
+    background-color: #2d2d2d; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align:center; /* Texte centré */
 }
+
