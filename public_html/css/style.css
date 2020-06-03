@@ -31,53 +31,9 @@ footer {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
     align-items: center; /* Les éléments portés sont centrés à la verticale */
-    position: relative; /* Le conteneur est fixé en fonction de ses coordonnées (à 0px du bas) */
-    bottom: 0px; /* Bas */
-    height: 100px; /* Hauteur */
-    width: 100%; /* Le pied de page occupe toute la largeur */ 
-    background-color:#2d2d2d; /* Couleur de fond */
-    color: #bbb; /* Couleur du texte */
-    text-align:center; /* Texte centré */
-}
-
-footer p {
-    font-size: large; /* Le texte est grossi en L */
-}
-
-footer a{
-    color: inherit; /* Couleur du lien identique à celle du conteneur */
-}
-
-/* Définition de la police "Calibri" */
-@font-face{
-    font-family: "Calibri";
-    src : url('css/polices/Calibri.ttf') format("truetype");
-}
-
-body {
-    display: flex; /* Ce conteneur est "flexible" */
-    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
-    flex-direction: column; /* les éléments sont empilés */
-    align-items: center; /* les éléments portés sont centrés à la verticale */ 
-    width: 100% /* La page occupe toute la largeur */
-}
-
-footer {
-    display: flex; /* Ce conteneur est "flexible" */
-    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
-    align-items: center; /* Les éléments portés sont centrés à la verticale */
     position: relative; 
     bottom: 0px; /* Bas */
     width: 100%; /* Le pied de page occupe toute la largeur */ 
-}
-
-
-#footerHaut p {
-    font-size: large;
-    background-color: gray; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align: center; /* Texte centré */
-    margin-bottom: 0px;
 }
 
 #footerBas p {
@@ -90,76 +46,3 @@ footer {
  /*
     Authors     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
 */
-
-* {
-    font-family: 'Calibri'; /* Police par défaut */
-    box-sizing: border-box; /* Les tailles de conteneurs incluent bordures et remplissages */
-    margin: 0; /* Mise à 0 des marges externes */
-    padding: 0; /* Mise à 0 des marges internes */
-    text-decoration: none; /* Suppression de la mise en forme habituelle des liens (soulignements) */
-}
-
-/* Définition de la police "Calibri" */
-@font-face{
-    font-family: "Calibri";
-    src : url('css/polices/Calibri.ttf') format("truetype");
-}
-
-/*Adaptation de la page*/
-body {
-    display: flex; /* Ce conteneur est "flexible" */
-    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
-    flex-direction: column; /* les éléments sont empilés */
-    align-items: center; /* les éléments portés sont centrés à la verticale */ 
-    width: 100% /* La page occupe toute la largeur */
-}
-
-#nav-flex {
-    display : flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-footer {
-    display: flex; /* Ce conteneur est "flexible" */
-    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
-    align-items: center; /* Les éléments portés sont centrés à la verticale */
-    position: relative; 
-    bottom: 0px; /* Bas */
-    height: 100px; /* Hauteur */
-    width: 100%; /* Le pied de page occupe toute la largeur */ 
-}
-
-
-#footerHaut p {
-    font-size: large;
-    background-color: gray; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align: center; /* Texte centré */
-    margin-bottom: 0px;
-}
-
-#footerBas p {
-    font-size: large;
-    background-color: #2d2d2d; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align:center; /* Texte centré */
-}
-
-
-#footerHaut p {
-    font-size: large;
-    background-color: gray; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align: center; /* Texte centré */
-    margin-bottom: 0px;
-}
-
-#footerBas p {
-    font-size: large;
-    background-color: #2d2d2d; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align:center; /* Texte centré */
-}
