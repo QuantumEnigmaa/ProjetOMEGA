@@ -9,8 +9,8 @@ raphael.galano@isen.yncrea.fr
 <html lang="fr-FR">
     <head>
         <link rel="icon" href="Troll.ico">
-        <link rel="stylesheet" href="css/style.css" type="text/css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
         <title>La Gazette du Troll Cogneur</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,17 +22,8 @@ raphael.galano@isen.yncrea.fr
               informateurs ont des yeux et des oreilles aux 4 coins des continents">
     </head>
     <body>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+        <nav class="navbar navbar-expand-lg  fixed-top navbar-dark bg-dark">
             <div class="nav-flex">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
@@ -60,6 +51,44 @@ raphael.galano@isen.yncrea.fr
                 </div> 
             </div>
         </nav>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Tombe.PNG" class="d-block w-100" alt="Tombe, longue-vie à l'empereur !" style="height:800px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 class="slideText">Une terrible nouvelle...</h4>
+                        <p class="slideText">L'empire humain est en deuil suite au trépas de son empereur Julius Etherlum</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Dragon.jpg" class="d-block w-100" alt="Dragon rouge volant et crachant du feu, je fuirais si j'étais vous !" style="height:800px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="slideText2">Montagnes dangereuses</h3>
+                        <p class="slideText2">Un Dragon aurait été aperçu aux alentours des montagnes du Brisedent, surveillez les hauteurs !</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/orc_grève.jpg" class="d-block w-100" alt="Orc en colère, ce n'est pas bon signe" style="height:800px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 class="slideText">Manifestations orcs</h4>
+                        <p class="slideText">Les orcs de la carrière de Durepierre ont débuté une manifestation contre la baisse du prix des matières premières</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
         <div>Projet WebDev</div>
         
         <footer>
@@ -88,5 +117,10 @@ raphael.galano@isen.yncrea.fr
                 <p>&copy;2020 La Gazette du Troll Cogneur - Créé par VAISSEAU Thibaud, GALANO Raphaël, CHERMETTE Luc<p>
             </section>
         </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
