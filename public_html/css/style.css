@@ -26,12 +26,28 @@ body {
     width: 100% /* La page occupe toute la largeur */
 }
 
-#nav-flex {
-    display : flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+nav {
     width: 100%;
+}
+
+.nav-flex {
+    display: flex; /* Ce conteneur est "flexible" */
+    align-items: center; /* les éléments portés sont centrés à la verticale */ 
+    width: 100% /* La page occupe toute la largeur */
+}
+
+#carouselExampleCaptions {
+    width: 100%;
+}
+
+.slideText {
+    color: grey;
+    font-size: x-large;
+}
+
+.slideText2 {
+    color: black;
+    font-size: x-large;
 }
 
 footer {
@@ -42,8 +58,21 @@ footer {
     bottom: 0px; /* Bas */
     height: 100px; /* Hauteur */
     width: 100%; /* Le pied de page occupe toute la largeur */ 
-    background-color:#2d2d2d; /* Couleur de fond */
-    color: #bbb; /* Couleur du texte */
+}
+
+
+#footerHaut p {
+    font-size: large;
+    background-color: gray; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Texte centré */
+    margin-bottom: 0px;
+}
+
+#footerBas p {
+    font-size: large;
+    background-color: #2d2d2d; /* Couleur de fond */
+    color: white; /* Couleur du texte */
     text-align:center; /* Texte centré */
 }
 
