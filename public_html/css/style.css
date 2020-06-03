@@ -45,11 +45,19 @@ footer {
 }
 
 
+
 #footerHaut p {
     font-size: large;
     background-color: gray; /* Couleur de fond */
     color: white; /* Couleur du texte */
-    text-align: center; /* Texte centré */
+    text-align: left; /* Texte centré */
+    margin-bottom: 0px;
+}
+
+#footerHaut h2 {
+    background-color: gray; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align: left; /* Texte centré */
     margin-bottom: 0px;
 }
 
@@ -60,19 +68,4 @@ footer {
     text-align:center; /* Texte centré */
 }
 
-
-#footerHaut p {
-    font-size: large;
-    background-color: gray; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align: center; /* Texte centré */
-    margin-bottom: 0px;
-}
-
-#footerBas p {
-    font-size: large;
-    background-color: #2d2d2d; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align:center; /* Texte centré */
-}
 
