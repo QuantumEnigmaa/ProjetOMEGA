@@ -71,9 +71,11 @@ footer {
 }
 
 
-#footer h3 {
-    color: white; /* Couleur du texte */
+footer h3 {
+    color: black; /* Couleur du texte */
 }
+
+
 footer a{
     color: #2d2d2d; /* Couleur du lien identique à celle du conteneur */
 }
