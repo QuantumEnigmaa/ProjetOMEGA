@@ -21,45 +21,42 @@ and open the template in the editor.
               informateurs ont des yeux et des oreilles aux 4 coins des continents">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Image centre</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Elfes <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Nains</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Humains</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Notre équipe</a>
-                    </li>
-                </ul>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Que cherchez-vous ?" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
-                </form>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+            <div class="nav-flex">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="pages/elfes.html">Elfes</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="pages/nain.html">Nains</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="index.html">
+                                <img src="images/elfe_chibi.png" alt="Elfe chibi, mascotte du site"  style="width:45px;height:45px;border:0;">
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="pages/humains.html">Humains</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="pages/equipe.html">Notre équipe</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Que cherchez-vous ?" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
+                    </form>
+                </div> 
             </div>
         </nav>
-        <div>
-            Projet WebDev
-            <img id="fond" src="../images/2697-montagnes-enneigees-WallFizz.jpg" alt=""/>
-        </div>        
         <footer>
-            <section>
-                <h2>OUI</h2>
-                <p>EHHHHHHOOOOOOOO<p>
-            </section>
-            
-            <section>
-                <h2>OUI OUI</h2>
-                <p>&copy;2020 Nolark - Créé par <a href="mailto:luc.chermette@isen.yncrea.fr">Luc CHERMETTE</a><p>
+            <section id="footerBas">
+                <p>&copy - Créé par VAISSEAU Thibaud, GALANO Raphaël, CHERMETTE Luc<p>
             </section>
         </footer>
         <!-- Optional JavaScript -->

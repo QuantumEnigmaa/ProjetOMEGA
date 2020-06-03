@@ -8,10 +8,8 @@ and open the template in the editor.
     Author     : raphael.galano
 */
 
-#fond {
+body {
     display:block;
-    background-image:url(images/2697-montagnes-enneigees-WallFizz.jpg);
-    position:fixed;
-    left:0;
-    right:0;
+    background-image:url(../images/2697-montagnes-enneigees-WallFizz.jpg);
+    background-attachment:fixed;
 }
