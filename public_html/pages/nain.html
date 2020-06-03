@@ -7,8 +7,8 @@ and open the template in the editor.
 <html lang="fr-FR">
     <head>
         <link rel="icon" href="Troll.ico">
-        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
         <link href="../css/nain.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <title>La Gazette du Troll Cogneur</title>
         <meta charset="UTF-8">
@@ -25,7 +25,7 @@ and open the template in the editor.
             <div class="nav-flex">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
@@ -54,49 +54,67 @@ and open the template in the editor.
                 </div> 
             </div>
         </nav>
-        <div id="panneaux">
-            <div id="titre">
-                Actualites diverses du royaume
+        <section class="fond">
+            <div class="panneaux">
+                <div class="titre">
+                    Actualites diverses du royaume
+                </div>
+                <div class="para1">
+                    <div class="musique"> 
+                        <div class="txtmusique" id='txtmusique'>
+                            Musique du moment
+                        </div>
+                        <div class="vidmusique">
+                            <iframe width="460" height="215" src="https://www.youtube.com/embed/f4azillbpqU??queue-enable=false"></iframe>
+                        </div>
+                        <div class='txtmusique' id='desc1'>
+                            A travers leurs chants entrainant, vous retrouverez ici toute la
+                        </div>
+                        <div class='txtmusique' id='desc2'>
+                            fougue et la folie des nains des montagnes de fer
+                        </div>
+                    </div>
+                    <div class="news">
+                        News relatives aux nains
+                    </div>
+                </div>
+                <div class="recommandations">
+                    Recommandations
+                </div>
+                <div class="polrou">
+                   Politique/etats des routes
+                </div>
+                <div class="job">
+                    Petites annonces
+                </div>
             </div>
-            <div id="musique">
-                Musique du moment
-            </div>
-            <div id="news">
-                News relatives aux nains
-            </div>
-            <div id="recommandations">
-                Recommandations
-            </div>
-            <div id="polrou">
-                Politique/etats des routes
-            </div>
-            <div id="job">
-                Petites annonces
-            </div>
-        </div>
+        </section>
         <footer>
-            <div class="card text-center" style="width: 100%;height: 0px">
+           <div class="card text-center" style="width: 100%;height: 0px">
                 <div class="row">
                     <div class="col-sm-6">
                             <div class="card-body">
-                                <h3 class="card-title">Nous contacter :</h3>
-                                <p><a href="mailto:luc.chermette@isen.yncrea.fr">CHERMETTE Luc</a></p>
-                                <p><a href="mailto:thibaud.vaisseau@isen.yncrea.fr">VAISSEAU Thibaud</a></p>
-                                <p><a href="mailto:raphael.galano@isen.yncrea.fr">GALANO Raphael</a></p>
+                                <h3 class="card-title" style="text-decoration: underline">Nous contacter :</h3>
+                                <p>
+                                    <a href="mailto:luc.chermette@isen.yncrea.fr">CHERMETTE Luc</a><FONT color="white"> |</FONT>
+                                    <a href="mailto:thibaud.vaisseau@isen.yncrea.fr"> VAISSEAU Thibaud</a><FONT color="white"> |</FONT>
+                                    <a href="mailto:raphael.galano@isen.yncrea.fr"> GALANO Raphael</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card-body">
+                                <h3 class="card-title" style="text-decoration: underline">Nos partenaires :</h3>
+                                <p>La Taverne du chien rugissant<FONT color="white"> | </FONT>L'équipage du rat volant</p>
+                            <p>La Compagnie des bardes<FONT color="white"> | </FONT>La Guilde des marchands</p>
                         </div>
                     </div>
-
-                    <div class="col-sm-6">
-                            <div class="card-body">
-                                <h3 class="card-title">Nos partenaires :</h3>
-                                <p>ISEN</p>
-                            </div>
-                    </div>
                 </div>
-                <div class="card-footer text-muted" style="width: 100%">
+                <div class="card-footer text-muted" style="width: 100%;height: 0px">
                     <p>&copy;2020 La Gazette du Troll Cogneur - Créé par VAISSEAU Thibaud, GALANO Raphaël, CHERMETTE Luc<p>
                 </div>
             </div>
+        
         </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

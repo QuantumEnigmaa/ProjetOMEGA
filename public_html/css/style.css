@@ -4,8 +4,9 @@
 */
 
 
+/*_________________________________GENERAL________________________________*/
 * {
-    font-family: 'Calibri'; /* Police par défaut */
+    font-family: 'Montserrat'; /* Police par défaut */
     box-sizing: border-box; /* Les tailles de conteneurs incluent bordures et remplissages */
     margin: 0; /* Mise à 0 des marges externes */
     padding: 0; /* Mise à 0 des marges internes */
@@ -15,8 +16,8 @@
 
 /* Définiion de la police "Calibri" */
 @font-face{
-    font-family: "Calibri";
-    src : url('polices/Calibri.ttf') format("truetype");
+    font-family: "Montserrat";
+    src : url('css/polices/Montserrat-Regular.ttf') format("truetype");
 }
 
 body {
@@ -27,30 +28,71 @@ body {
     width: 100% /* La page occupe toute la largeur */
 }
 
+section {
+    /*width: 916px;*/
+    width: 1200px;
+}
+
+/*_________________________________BARRE DE NAVIGATION________________________________*/
 nav {
-    width: 100%;
+    width: 100%; /* La page occupe toute la largeur */
 }
 
 .nav-flex {
-    display: flex; /* Ce conteneur est "flexible" */
+    display: flex;
     align-items: center; /* les éléments portés sont centrés à la verticale */ 
-    width: 100% /* La page occupe toute la largeur */
 }
 
+/*_________________________________CAROUSEL________________________________*/
 #carouselExampleCaptions {
     width: 100%;
 }
 
+/*_________________________________PAGE________________________________*/
 .slideText {
     color: grey;
     font-size: x-large;
+    font-weight: bold;
 }
 
 .slideText2 {
     color: black;
     font-size: x-large;
+    font-weight: bold;
 }
 
+#TexteIntro {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify; /*On écrit en mode justifié*/
+    justify-content: space-around;
+}
+
+#TexteIntro {
+    flex: 1; /*Pour que chaque élément occuper un espace idéal*/
+}
+
+.sousTitre, .Titre {
+    text-align: center; /*On aligne le texte au centre*/
+    font-weight: bold;
+}
+
+#principal aside {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    width: 250px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+
+#TexteIntro aside {
+    /*font-weight: bold;*/
+    text-align: center;
+}
+
+/*_________________________________FOOTER________________________________*/
 footer {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
@@ -86,9 +128,11 @@ footer {
 }
 
 
-#footer h3 {
-    color: white; /* Couleur du texte */
+footer h3 {
+    color: black; /* Couleur du texte */
 }
+
+
 footer a{
     color: #2d2d2d; /* Couleur du lien identique à celle du conteneur */
 }
