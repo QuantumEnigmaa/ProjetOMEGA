@@ -14,7 +14,7 @@
 /* Définition de la police "Calibri" */
 @font-face{
     font-family: "Calibri";
-    src : url('css/polices/Calibri.ttf') format("truetype");
+    src : url('polices/Calibri.ttf') format("truetype");
 }
 
 /*Adaptation de la page*/
@@ -56,41 +56,24 @@ footer {
     align-items: center; /* Les éléments portés sont centrés à la verticale */
     position: relative; 
     bottom: 0px; /* Bas */
-    height: 100px; /* Hauteur */
+    height: 10px; /* Hauteur */
     width: 100%; /* Le pied de page occupe toute la largeur */ 
 }
 
+
 .row{
     background-color: gray; /* Couleur de fond */
+    text-align: center;
 }
-
 
 .card-body{
     background-color: gray; /* Couleur de fond */
 }
 
-#footerHaut p {
-    font-size: large;
-    background-color: gray; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align: left; /* Texte centré */
-    text-indent: 150px;
-    margin-bottom: 0px;
-}
 
-#footerHaut h5 {
-    background-color: gray; /* Couleur de fond */
+#footer h3 {
     color: white; /* Couleur du texte */
-    text-align: left; /* Texte centré */
-    margin-bottom: 0px;
 }
-#footerHaut a{
+footer a{
     color: #2d2d2d; /* Couleur du lien identique à celle du conteneur */
-}
-
-#footerBas p {
-    font-size: large;
-    background-color: #2d2d2d; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    text-align:center; /* Texte centré */
 }
