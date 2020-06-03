@@ -16,13 +16,16 @@ body {
 
 #panneaux {
     font-family: 'PlainGermanica';
-    display-block:flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
     background-image: url(../images/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
+    margin-bottom: 0px;
 }
 
 #titre {
     text-align: center;
-    text-height: 100px;
+    font-size: 100px;
 }
+
+
+

@@ -27,6 +27,30 @@ body {
     width: 100% /* La page occupe toute la largeur */
 }
 
+nav {
+    width: 100%;
+}
+
+.nav-flex {
+    display: flex; /* Ce conteneur est "flexible" */
+    align-items: center; /* les éléments portés sont centrés à la verticale */ 
+    width: 100% /* La page occupe toute la largeur */
+}
+
+#carouselExampleCaptions {
+    width: 100%;
+}
+
+.slideText {
+    color: grey;
+    font-size: x-large;
+}
+
+.slideText2 {
+    color: black;
+    font-size: x-large;
+}
+
 footer {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
