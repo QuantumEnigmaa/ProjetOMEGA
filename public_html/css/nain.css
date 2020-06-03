@@ -13,3 +13,16 @@ body {
     background-image:url(../images/2697-montagnes-enneigees-WallFizz.jpg);
     background-attachment:fixed;
 }
+
+#panneaux {
+    font-family: 'PlainGermanica';
+    display-block:flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url(../images/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
+}
+
+#titre {
+    text-align: center;
+    text-height: 100px;
+}
