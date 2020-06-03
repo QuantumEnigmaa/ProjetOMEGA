@@ -3,7 +3,38 @@
     Authors     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
 */
 
-#equipe {
-    margin-top: 70px;  
+#title {
+    margin-top: 70px;
 }
 
+#equipe {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify; /*On écrit en mode justifié*/
+    justify-content: space-around;
+}
+
+#equipe aside {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    border: 3px solid tan;
+    border-radius: 10px;
+    background-color: darkseagreen;
+    font-weight: bold;
+    
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    align-items: center; /* Les éléments portés sont centrés à la verticale */
+}
+
+#DescriptionEquipe {
+    margin-top: 10px;
+    border: 3px solid darkseagreen;
+    border-radius: 10px;
+    background-color: tan;
+}
