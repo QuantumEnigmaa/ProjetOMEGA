@@ -44,21 +44,32 @@ footer {
     width: 100%; /* Le pied de page occupe toute la largeur */ 
 }
 
+.row{
+    background-color: gray; /* Couleur de fond */
+}
 
+
+.card-body{
+    background-color: gray; /* Couleur de fond */
+}
 
 #footerHaut p {
     font-size: large;
     background-color: gray; /* Couleur de fond */
     color: white; /* Couleur du texte */
     text-align: left; /* Texte centré */
+    text-indent: 150px;
     margin-bottom: 0px;
 }
 
-#footerHaut h2 {
+#footerHaut h5 {
     background-color: gray; /* Couleur de fond */
     color: white; /* Couleur du texte */
     text-align: left; /* Texte centré */
     margin-bottom: 0px;
+}
+#footerHaut a{
+    color: #2d2d2d; /* Couleur du lien identique à celle du conteneur */
 }
 
 #footerBas p {
@@ -67,5 +78,3 @@ footer {
     color: white; /* Couleur du texte */
     text-align:center; /* Texte centré */
 }
-
-
