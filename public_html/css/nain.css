@@ -32,6 +32,7 @@ and open the template in the editor.
 }
 
 .titre {
+    padding-top: 80px;
     text-align: center;
     font-size: 100px;
     font-family: "PlainGermanica";
