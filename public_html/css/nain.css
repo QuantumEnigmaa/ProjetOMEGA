@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 juin 2020, 08:54:26
+    Author     : raphael.galano
+*/
+
+@font-face{
+    font-family: "PlainGermanica";
+    src : url(../css/polices/Plain_Germanica.ttf) format("truetype");
+}
+
+.fond{
+    background-image:url(../images/2697-montagnes-enneigees-WallFizz.jpg);
+    background-attachment:fixed;
+    width: 100%
+}
+
+.panneaux {
+    margin-left: 380px;
+    margin-right: 380px;
+    background-image: url(../images/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
+}
+
+.titre, .txtmusique, .news, .job, .polrou, .recommandations{
+    font-family: 'PlainGermanica';
+}
+
+.titre {
+    text-align: center;
+    font-size: 100px;
+}
+
+.para1 {
+    display:flex;
+}
+
+.musique{
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#txtmusique{
+    padding-left: 90px;
+    font-size: 30px;
+}
+
+.vidmusique {
+    text-align: left;
+}
+
+.txtmusique{
+    color: white;
+}
+
+#desc1, #desc2 {
+    padding-left: 20px;
+}
+
+.news{
+    background-image: url(../images/vieux-panneau-en-bois-18882072_1.jpg);
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+}

@@ -1,6 +1,6 @@
 /* 
     Created on : 2 juin 2020, 15:43:35
-    Authors     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
+    Author     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
 */
 
 
@@ -13,13 +13,13 @@
     text-decoration: none; /* Suppression de la mise en forme habituelle des liens (soulignements) */
 }
 
-/* Définition de la police "Calibri" */
+
+/* Définiion de la police "Calibri" */
 @font-face{
     font-family: "Montserrat";
-    src : url('polices/Montserrat-Regular.ttf') format("truetype");
+    src : url('../polices/Montserrat-Regular.ttf') format("truetype");
 }
 
-/*Adaptation de la page*/
 body {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
@@ -152,9 +152,23 @@ footer {
     align-items: center; /* Les éléments portés sont centrés à la verticale */
     position: relative; 
     bottom: 0px; /* Bas */
+
     height: 10px; /* Hauteur */
+
     width: 100%; /* Le pied de page occupe toute la largeur */ 
 }
+
+
+#footerBas p {
+    font-size: large;
+    background-color: #2d2d2d; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align:center; /* Texte centré */
+}
+
+ /*
+    Authors     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
+*/
 
 
 .row{
@@ -175,3 +189,4 @@ footer h3 {
 footer a{
     color: #2d2d2d; /* Couleur du lien identique à celle du conteneur */
 }
+
