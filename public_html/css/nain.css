@@ -26,7 +26,7 @@ and open the template in the editor.
     background-image: url(../images/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
 }
 
-.titre, .txtmusique, .news, .job, .polrou, .recommandations{
+.titre, .txtmusique, .news, .job, .polrou, .recommandations, .postit1, .postit2, .postit3, #desctav, #titrereco, #titreann {
     font-family: 'PlainGermanica';
 }
 
@@ -35,14 +35,17 @@ and open the template in the editor.
     font-size: 100px;
 }
 
-.para1 {
+.para1, .para2{
     display:flex;
 }
 
 .musique{
+    border: 2px solid #2d2d2d;
+    border-radius: 10px;
+    background-color: gray;
     display: block;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 #txtmusique{
@@ -62,9 +65,68 @@ and open the template in the editor.
     padding-left: 20px;
 }
 
-.news{
+.pan1{
+    border: 2px solid #2d2d2d;
+    border-radius: 10px;
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+.job{
     background-image: url(../images/vieux-panneau-en-bois-18882072_1.jpg);
     margin-left: 50px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+.news, #titreann {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.postit{
+    display: flex;
+}
+
+.postit1, .postit2, .postit3{
+    font-size: 20px;
+    color: white;
+    background-image: url(../images/antiquitC3A9-scroll-parchemin-banque-de-photographie_csp33244905.png);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.recommandations {
+    display: block;
+    border: 2px solid #2d2d2d;
+    border-radius: 10px;
+    background-color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#titrereco{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#phototav{
+    text-align: center;
+}
+
+#desctav{
+    margin-top: 10px;
     font-size: 20px;
     color: white;
 }
