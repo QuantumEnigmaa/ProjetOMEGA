@@ -38,3 +38,11 @@
     border-radius: 10px;
     background-color: tan;
 }
+
+
+#Compo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
