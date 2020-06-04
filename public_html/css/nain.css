@@ -22,6 +22,7 @@ and open the template in the editor.
 
 .panneaux {
     margin-left: 380px;
+    text-align: center;
     margin-right: 380px;
     background-image: url(../images/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
 }
