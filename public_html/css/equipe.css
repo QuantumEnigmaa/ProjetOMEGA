@@ -45,4 +45,9 @@
     margin-bottom: 10px;
     display: flex;
 }
-
+#formulaire {
+    border: 3px solid darkseagreen;
+    border-radius: 10px;
+    background-color: tan;
+    padding: 15px;
+}
