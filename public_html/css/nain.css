@@ -130,3 +130,11 @@ and open the template in the editor.
     font-size: 20px;
     color: white;
 }
+
+.choix {
+    padding: 15px;
+    display: block;
+    border: 2px solid #2d2d2d;
+    border-radius: 10px;
+    background-color: gray;
+}
