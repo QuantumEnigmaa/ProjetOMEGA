@@ -132,8 +132,8 @@ and open the template in the editor.
 }
 
 .choix {
-    padding: 15px;
-    display: block;
+    width: 98%;
+    margin-left: 10px;
     border: 2px solid #2d2d2d;
     border-radius: 10px;
     background-color: gray;
