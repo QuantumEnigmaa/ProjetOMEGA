@@ -106,7 +106,8 @@ and open the template in the editor.
 
 .recommandations {
     padding: 15px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 2px solid #2d2d2d;
     border-radius: 10px;
     background-color: gray;
@@ -141,4 +142,57 @@ and open the template in the editor.
     border: 2px solid #2d2d2d;
     border-radius: 10px;
     background-color: gray;
+}
+/*_______________________________ETOILES_______________________________*/
+#titrereco .classement {
+    width: 85px; /*Largeur de l'image affichée'*/
+    height: 18px; /*hauteur d'une ligne sur l'image totale, si on augmente, on va voir plusieurs lignes*/
+    position: absolute;
+    bottom: 0;
+    object-fit: none;
+    margin: 0 39px;
+}
+
+#titrereco .classement.classement00 { 
+    object-position: 0 0;
+}
+
+#titrereco .classement.classement05 {
+    object-position: 0 -18px;
+}
+
+#titrereco .classement.classement10 {
+    object-position: 0 -36px;
+}
+
+#titrereco .classement.classement15 {
+    object-position: 0 -54px;
+}
+
+#titrereco .classement.classement20 {
+    object-position: 0 -72px;
+}
+
+#titrereco .classement.classement25 {
+    object-position: 0 -90px;
+}
+
+#titrereco .classement.classement30 {
+    object-position: 0 -108px;
+}
+
+#titrereco .classement.classement35 {
+    object-position: 0 -126px;
+}
+
+#titrereco .classement.classement40 {
+    object-position: 0 -144px;
+}
+
+#titrereco .classement.classement45 {
+    object-position:0 -162px;
+}
+
+#titrereco .classement.classement50 {
+    object-position: 0 -180px;
 }
