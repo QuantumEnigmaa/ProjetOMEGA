@@ -4,7 +4,7 @@
 */
 
 #title {
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 #equipe {
@@ -37,4 +37,17 @@
     border: 3px solid darkseagreen;
     border-radius: 10px;
     background-color: tan;
+}
+
+
+#Compo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+#formulaire {
+    border: 3px solid darkseagreen;
+    border-radius: 10px;
+    background-color: tan;
+    padding: 15px;
 }

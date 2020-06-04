@@ -7,9 +7,9 @@ and open the template in the editor.
 <html lang="fr-FR">
     <head>
         <link rel="icon" href="../Troll.ico">
-        <link href="../css/nain.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/nain.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/style.css" type="text/css"/>
         <title>La Gazette du Troll Cogneur</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,12 +21,8 @@ and open the template in the editor.
               informateurs ont des yeux et des oreilles aux 4 coins des continents">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+        <nav class="navbar navbar-expand-lg  fixed-top navbar-dark bg-dark">
             <div class="nav-flex">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
@@ -37,7 +33,7 @@ and open the template in the editor.
                         </li>
                         <li class="nav-item active">
                             <a href="../index.html">
-                                <img src="../images/elfe_chibi.png" alt="Elfe chibi, mascotte du site"  style="width:45px;height:45px;border:0;"/>
+                                <img src="../images/elfe_chibi.png" alt="Elfe chibi, mascotte du site"  style="width:45px;height:45px;border:0;">
                             </a>
                         </li>
                         <li class="nav-item active">
@@ -54,6 +50,7 @@ and open the template in the editor.
                 </div> 
             </div>
         </nav>
+        
         <section class="fond">
             <div class="panneaux">
                 <div class="titre">
@@ -74,18 +71,69 @@ and open the template in the editor.
                             fougue et la folie des nains des montagnes de fer
                         </div>
                     </div>
-                    <div class="news">
-                        News relatives aux nains
+                    <div class="pan1">
+                        <div class="news">
+                            News relatives aux nains
+                        </div>
+                        <div class="postit">
+                            <div class="postit1">
+                                le tournois annuel du meilleur forgeron se deroulera a la ville de Durngron
+                            </div>
+                            <div class="postit2">
+                                les gobelins envahissent les mines de Khagh Badir, une recompense sera offerte par les dirigeants de la cite pour tout ceux qui viennent aider a faire le menage
+                            </div>
+                            <div class="postit3">
+                                connaissez vous l'histoire de Kolfar Stormtale et de son epouse elf Zinlana, retrouvez tout les details de ce couple star dans le prochain numero de people Mirgamas
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="recommandations">
-                    Recommandations
+                    <div id='titrereco'>
+                        Etablissement recommande du mois: la taverne de Bragnak Evenhonor
+                    </div>
+                    <div id='phototav'>
+                        <img src="../images/taverne.jpg" alt=""/>
+                    </div>
+                    <div id='desctav'>
+                        c'est un etablissement autant adorable que mouvemente, retrouvez son patron avec sa cuisine unique, beaucoup de viande et de biere d'excellente qualite, de quoi vous redonnez le moral en cas de coup dur et vous faire beaucoup d'amis
+                    </div>
                 </div>
-                <div class="polrou">
-                   Politique/etats des routes
-                </div>
-                <div class="job">
-                    Petites annonces
+                <div class='para2'>
+                    <div class="polrou">
+                        <div id='bp'>
+                            <div id='bp1'>
+                                
+                            </div>
+                            <div id='bp2'>
+                                
+                            </div>
+                        </div>
+                        <div id='affinf'>
+                            <div id='politique'>
+                                
+                            </div>
+                            <div id='inforoute'>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div id='titreann'>
+                            Petites annonces
+                        </div>
+                        <div class='postit'>
+                            <div class='postit1'>
+                                Recherche mineurs pour la mine de Ganbadir, travail bien paye, la mine jouit d'un gigantesque filon de Primium reconnu pour ses grandes resistances a la magie mais attention, l'extraction est difficile et dangereuse
+                            </div>
+                            <div class='postit2'>
+                                Recherche monteurs de sanglier pour un raid sur l'ile de de monttou, attention, beaucoup de creatures malefique la peuple, rendez vous a Dhaggolir pour les interesses
+                            </div>
+                            <div class='postit3'>
+                                Gardes du corp appele pour aider Idrok Steeldrink a traverser les monts desole de Khindoral, zone tres dangereuse a cause de sa population de griffons sauvages tres aggessifs, rendez vous a la taverne de Dhim Oluhm, la recompense s'eleve a 15 000 ecus pour la reussite du voyage 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
