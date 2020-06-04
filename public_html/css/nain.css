@@ -25,7 +25,7 @@ and open the template in the editor.
     background-image: url(../images/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
 }
 
-.titre, .txtmusique, .news, .job, .polrou, .recommandations, #postit1, #postit2, #postit3, #desctav, #titrereco {
+.titre, .txtmusique, .news, .job, .polrou, .recommandations, .postit1, .postit2, .postit3, #desctav, #titrereco, #titreann {
     font-family: 'PlainGermanica';
 }
 
@@ -34,11 +34,14 @@ and open the template in the editor.
     font-size: 100px;
 }
 
-.para1 {
+.para1, .para2{
     display:flex;
 }
 
 .musique{
+    border: 2px solid #2d2d2d;
+    border-radius: 10px;
+    background-color: gray;
     display: block;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -62,13 +65,26 @@ and open the template in the editor.
 }
 
 .pan1{
-    background-image: url(../images/vieux-panneau-en-bois-18882072_1.jpg);
+    border: 2px solid #2d2d2d;
+    border-radius: 10px;
+    background-color: gray;
     margin-left: 50px;
     margin-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     display: block;
 }
 
-.news {
+.job{
+    background-image: url(../images/vieux-panneau-en-bois-18882072_1.jpg);
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+.news, #titreann {
     text-align: center;
     font-size: 40px;
     color: white;
@@ -78,17 +94,21 @@ and open the template in the editor.
     display: flex;
 }
 
-#postit1, #postit2, #postit3{
+.postit1, .postit2, .postit3{
     font-size: 20px;
     color: white;
     background-color: yellow;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 5px;
     color: black;
 }
 
 .recommandations {
     display: block;
+    border: 2px solid #2d2d2d;
+    border-radius: 10px;
+    background-color: gray;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
@@ -106,7 +126,6 @@ and open the template in the editor.
 
 #desctav{
     margin-top: 10px;
-    background-color: black;
     font-size: 20px;
     color: white;
 }
