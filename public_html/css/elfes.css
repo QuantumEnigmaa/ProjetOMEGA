@@ -15,7 +15,7 @@ and open the template in the editor.
     width: 100%;
 }
 
-#Milieu h1 {
+#contenu h1 {
     text-align: center;
     font-family: 'Elfique';
     color: black;
@@ -24,4 +24,45 @@ and open the template in the editor.
 @font-face{
     font-family: "Elfique";
     src: url('polices/Beyond_Wonderland.ttf') format("truetype");
+}
+
+#Milieu #contenu {
+    margin-left: 380px;
+    margin-right: 380px;
+    background-image: url(../images/elfes/Wood Texture Lines.jpg);
+}
+
+.debut {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#musique {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    border : 2px solid forestgreen;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#musique h3, #musique p, #news h3 {
+    font-family: 'Elfique';
+}
+
+#news {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border : 2px solid forestgreen;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: lightgray;
+    text-align: center;
 }
