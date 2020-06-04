@@ -1,3 +1,13 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 juin 2020, 08:54:26
+    Author     : Thibaud VAISSEAU
+*/
+
 
 /*_________________________________PAGE________________________________*/
 .slideText {
@@ -95,7 +105,6 @@
     background-color: lightgrey;
     text-align: center;
 }
-
 .evenement:hover {
     padding: 10px;
 }

@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 juin 2020, 08:54:26
+    Author     : raphael.galano
+*/
+
+#Milieu {
+    margin-top: 80px;
+    background-image:url(../images/elfes/foretElfe.jpg);
+    background-attachment:fixed;
+    width: 100%;
+}
+
+#Milieu h1 {
+    text-align: center;
+    font-family: 'Elfique';
+    color: black;
+}
+
+@font-face{
+    font-family: "Elfique";
+    src: url('polices/Beyond_Wonderland.ttf') format("truetype");
+}
