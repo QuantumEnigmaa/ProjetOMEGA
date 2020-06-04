@@ -26,7 +26,7 @@ and open the template in the editor.
     src: url('polices/Beyond_Wonderland.ttf') format("truetype");
 }
 
-#Milieu #contenu {
+#contenu {
     margin-left: 380px;
     margin-right: 380px;
     background-image: url(../images/elfes/Wood Texture Lines.jpg);
@@ -56,8 +56,6 @@ and open the template in the editor.
 }
 
 #news {
-    display: flex;
-    flex-direction: row;
     margin-top: 20px;
     margin-bottom: 20px;
     border : 2px solid forestgreen;
@@ -65,4 +63,20 @@ and open the template in the editor.
     padding: 15px;
     background-color: lightgray;
     text-align: center;
+    display: box;
+}
+
+.postit{
+    display: flex;
+    flex-direction: row;
+}
+
+.postit1{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-image: url(../images/antiquitC3A9-scroll-parchemin-banque-de-photographie_csp33244905.png);
+    padding: 5px;
+    color: black;
+    margin: 2px;
 }
