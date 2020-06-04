@@ -3,9 +3,22 @@
     Authors     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
 */
 
+.fond{
+    margin-top: 80px;
+    background-image:url(../images/falaises-2000x1200.jpg);
+    background-attachment:fixed;
+    width: 100%;
+}
+
+#fd {
+    margin-left: 355px;
+    margin-right: 355px;
+}
+
 #title {
     margin-top: 90px;
     text-align: center;
+    color: white;
 }
 
 #equipe {
