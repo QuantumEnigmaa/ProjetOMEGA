@@ -8,6 +8,11 @@ and open the template in the editor.
     Author     : raphael.galano
 */
 
+@font-face{
+    font-family: "PlainGermanica";
+    src : url('../css/polices/Plain_Germanica.ttf') format("truetype");
+}
+
 .fond{
     margin-top: 80px;
     background-image:url(../images/2697-montagnes-enneigees-WallFizz.jpg);
@@ -23,11 +28,6 @@ and open the template in the editor.
 
 .titre, .txtmusique, .news, .job, .polrou, .recommandations, .postit1, #desctav, #titrereco, #titreann {
     font-family: "PlainGermanica";
-}
-
-@font-face{
-    font-family: "PlainGermanica";
-    src: url('polices/Plain_Germanica.ttf') format("truetype");
 }
 
 .titre {
