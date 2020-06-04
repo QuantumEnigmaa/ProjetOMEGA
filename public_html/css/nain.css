@@ -38,7 +38,7 @@ and open the template in the editor.
 }
 
 .para1, .para2 {
-    display:block;
+    display: flex;
 }
 
 .musique {
@@ -132,7 +132,10 @@ and open the template in the editor.
 }
 
 .choix {
-    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    width: 98%;
     display: block;
     border: 2px solid #2d2d2d;
     border-radius: 10px;
