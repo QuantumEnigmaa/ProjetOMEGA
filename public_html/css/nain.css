@@ -22,6 +22,7 @@ and open the template in the editor.
 
 .panneaux {
     margin-left: 380px;
+    text-align: center;
     margin-right: 380px;
     background-image: url(../images/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
 }
@@ -31,16 +32,17 @@ and open the template in the editor.
 }
 
 .titre {
+    padding-top: 80px;
     text-align: center;
     font-size: 100px;
     font-family: "PlainGermanica";
 }
 
-.para1, .para2{
-    display:flex;
+.para1, .para2 {
+    display: flex;
 }
 
-.musique{
+.musique {
     border: 2px solid #2d2d2d;
     border-radius: 10px;
     background-color: gray;
@@ -49,18 +51,15 @@ and open the template in the editor.
     margin-bottom: 20px;
 }
 
-.txtmusique{
+.txtmusique {
     padding: 20px;
     font-size: 20px;
     text-align: center;
+    color: white;
 }
 
 .vidmusique {
     text-align: left;
-}
-
-.txtmusique{
-    color: white;
 }
 
 #desc1, #desc2 {
@@ -71,9 +70,11 @@ and open the template in the editor.
     border: 2px solid #2d2d2d;
     border-radius: 10px;
     background-color: gray;
-    margin: 20px;
-    padding: 5px;
+    padding: 10px;
     display: block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .job{
@@ -132,8 +133,11 @@ and open the template in the editor.
 }
 
 .choix {
-    width: 98%;
     margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    width: 98%;
+    display: block;
     border: 2px solid #2d2d2d;
     border-radius: 10px;
     background-color: gray;
