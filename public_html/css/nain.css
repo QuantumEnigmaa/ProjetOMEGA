@@ -27,12 +27,13 @@ and open the template in the editor.
 }
 
 .titre, .txtmusique, .news, .job, .polrou, .recommandations, .postit1, #desctav, #titrereco, #titreann {
-    font-family: 'PlainGermanica';
+    font-family: "PlainGermanica";
 }
 
 .titre {
     text-align: center;
     font-size: 100px;
+    font-family: "PlainGermanica";
 }
 
 .para1, .para2{
