@@ -10,7 +10,7 @@ and open the template in the editor.
 
 @font-face{
     font-family: "PlainGermanica";
-    src : url(../css/polices/Plain_Germanica.ttf) format("truetype");
+    src : url('../css/polices/Plain_Germanica.ttf') format("truetype");
 }
 
 .fond{

@@ -14,10 +14,10 @@
 }
 
 
-/* Définiion de la police "Monserrat" */
+/* Définiion de la police "Montserrat" */
 @font-face{
     font-family: "Montserrat";
-    src : url('../polices/Montserrat-Regular.ttf') format("truetype");
+    src : url('polices/Montserrat-Regular.ttf') format("truetype");
 }
 
 body {
