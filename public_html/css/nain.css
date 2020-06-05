@@ -13,12 +13,6 @@ and open the template in the editor.
     src : url('../css/polices/Plain_Germanica.ttf') format("truetype");
 }
 
-.fond{
-    margin-top: 80px;
-    background-image:url(../images/nains/2697-montagnes-enneigees-WallFizz.jpg);
-    background-attachment:fixed;
-    width: 100%
-}
 
 .panneaux {
     margin-left: 380px;
@@ -32,7 +26,7 @@ and open the template in the editor.
 }
 
 .titre {
-    padding-top: 80px;
+    padding-top: 150px;
     text-align: center;
     font-size: 100px;
     font-family: "PlainGermanica";
