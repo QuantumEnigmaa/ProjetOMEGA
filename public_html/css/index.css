@@ -112,3 +112,13 @@ and open the template in the editor.
 .evenement p {
     padding: 5px;
 }
+
+/*________________________ADAPTATION MOBILE______________________________*/
+
+@media screen and (max-width:768px)     
+{
+    header, section {
+        width: auto;
+    }
+    
+}

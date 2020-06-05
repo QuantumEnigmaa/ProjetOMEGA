@@ -5,7 +5,7 @@
 
 .fond{
     margin-top: 80px;
-    background-image:url(../images/falaises-2000x1200.jpg);
+    background-image:url(../images/equipe/falaises-2000x1200.jpg);
     background-attachment:fixed;
     width: 100%;
 }
@@ -51,6 +51,7 @@
     border: 3px solid darkseagreen;
     border-radius: 10px;
     background-color: tan;
+    padding: 15px;
 }
 
 

@@ -15,7 +15,7 @@ and open the template in the editor.
 
 .fond{
     margin-top: 80px;
-    background-image:url(../images/2697-montagnes-enneigees-WallFizz.jpg);
+    background-image:url(../images/nains/2697-montagnes-enneigees-WallFizz.jpg);
     background-attachment:fixed;
     width: 100%
 }
@@ -24,7 +24,7 @@ and open the template in the editor.
     margin-left: 380px;
     text-align: center;
     margin-right: 380px;
-    background-image: url(../images/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
+    background-image: url(../images/nains/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
 }
 
 .titre, .txtmusique, .news, .job, .polrou, .recommandations, .postit1, #desctav, #titrereco, #titreann {
@@ -42,6 +42,7 @@ and open the template in the editor.
     display: flex;
 }
 
+/*_________________________MUSIQUE_______________________*/
 .musique {
     border: 2px solid #2d2d2d;
     border-radius: 10px;
@@ -62,6 +63,7 @@ and open the template in the editor.
     text-align: left;
 }
 
+/*_________________________NOUVELLES_______________________*/
 #desc1, #desc2 {
     padding-left: 20px;
 }
@@ -78,7 +80,7 @@ and open the template in the editor.
 }
 
 .job{
-    background-image: url(../images/vieux-panneau-en-bois-18882072_1.jpg);
+    background-image: url(../images/nains/vieux-panneau-en-bois-18882072_1.jpg);
     padding: 20px;
     margin: 17px;
     display: block;
@@ -98,12 +100,13 @@ and open the template in the editor.
     text-align: center;
     font-size: 20px;
     color: white;
-    background-image: url(../images/antiquitC3A9-scroll-parchemin-banque-de-photographie_csp33244905.png);
+    background-image: url(../images/nains/antiquitC3A9-scroll-parchemin-banque-de-photographie_csp33244905.png);
     padding: 5px;
     color: black;
     margin: 2px;
 }
 
+/*________________________RECOMMENDATION_______________________*/
 .recommandations {
     padding: 15px;
     display: flex;
@@ -133,6 +136,7 @@ and open the template in the editor.
     color: white;
 }
 
+/*_____________________FENETRES INTERACTIVES_____________________*/
 .choix {
     margin-left: 10px;
     margin-right: 10px;
@@ -142,6 +146,19 @@ and open the template in the editor.
     border: 2px solid #2d2d2d;
     border-radius: 10px;
     background-color: gray;
+}
+
+#nav-profile {
+    text-align: left;
+    padding: 15px;
+}
+
+/*#nav-profile p {
+    font-family: 'PlainGermanica';
+}*/
+
+#nav-tabContent {
+    margin-bottom: 30px;
 }
 /*_______________________________ETOILES_______________________________*/
 #titrereco .classement {
