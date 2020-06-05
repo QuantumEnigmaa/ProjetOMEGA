@@ -96,7 +96,6 @@ footer a{
 }
 
 /*________________________ADAPTATION MOBILE______________________________*/
-
 @media screen and (max-width:768px)     
 {
     header, section {
@@ -111,6 +110,10 @@ footer a{
     section {
         /*width: 916px;*/
         width: 100%;
+    }
+    
+    footer {
+        margin-top: 150px;
     }
 }
 

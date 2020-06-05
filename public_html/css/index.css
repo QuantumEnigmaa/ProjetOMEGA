@@ -43,6 +43,13 @@ and open the template in the editor.
     justify-content: space-around;
 }
 
+#presentation {
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 15px;
+}
+
 #TexteIntro article, #TexteIntro div{
     flex: 1; /*Pour que chaque élément occuper un espace idéal*/
 }
@@ -61,7 +68,7 @@ and open the template in the editor.
 }
 
 #Direction {
-    margin-left: 400px;
+    margin-left: 370px;
 }
 
 #TexteIntro aside {
@@ -127,7 +134,6 @@ and open the template in the editor.
 }
 
 /*________________________ADAPTATION MOBILE______________________________*/
-
 @media screen and (max-width:768px)     
 {
     .carousel-inner {
@@ -179,9 +185,5 @@ and open the template in the editor.
     
     .sousTab {
         flex-direction: column;
-    }
-    
-    footer {
-        margin-top: 150px;
     }
 }
