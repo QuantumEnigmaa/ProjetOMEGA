@@ -22,7 +22,6 @@ raphael.galano@isen.yncrea.fr
               monde de Myrgamas ! Que ce soit les concerts, la politique, les 
               bonnes affaire ou encore des petites annonces, nos gobelins 
               informateurs ont des yeux et des oreilles aux 4 coins des continents">
-        <script src="../JavaScript/equipe.js" type="text/javascript"></script>
     </head>
     <body style="background-attachment:fixed; background-image: url('../images/equipe/falaises-2000x1200.jpg');width: 100%">
         <nav class="navbar navbar-expand-lg  fixed-top navbar-dark bg-dark">
@@ -124,43 +123,35 @@ raphael.galano@isen.yncrea.fr
 
                 <section id="formulaire">
 
-                    <form class="needs-validation" novalidate>
+                    <form name="form_contact" id="form_contact">
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <label for="prenom">Prenom</label>
-                                <input type="text" class="form-control" id="validationCustom01" placeholder="Prénom" style='background-color: darkseagreen' required>
-                                <div class="valid-feedback">
-                                    Très bien
-                                </div>
+                                <input type="text" class="form-control" name="prenom" id="prenom" placeholder="Prenom" style='background-color: darkseagreen' pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
+                                <div class="input-validation"></div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="nom">Nom</label>
-                                <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" style='background-color: darkseagreen' required>
-                                <div class="valid-feedback">
-                                    Très bien
-                                </div>
+                                <input type="text" class="form-control" name="nom" id="nom" placeholder="Nom" style='background-color: darkseagreen' pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
+                                <div class="input-validation"></div>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <label for="mail">Mail</label>
-                                <input type="text" class="form-control" id="validationCustom03" placeholder="adresse mail" style='background-color: darkseagreen' required>
-                                <div class="invalid-feedback">
-                                    Entrez un Email correct
-                                </div>
+                                <input type="email" class="form-control" name="mail" id="mail" placeholder="adresse mail" style='background-color: darkseagreen' pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                                <div class="input-validation"></div>
                             </div>
                             <div class="col-md-3 mb-3">
                                 <label for="contree">Contrée</label>
-                                <select class="custom-select" id="validationCustom04" style='background-color: darkseagreen' required>
+                                <select class="custom-select" id="contree" style='background-color: darkseagreen' required>
                                     <option selected disabled value="">Choisir...</option>
                                     <option>Royaume des Nains</option>
                                     <option>Royaume des Elfes</option>
                                     <option>Empire Humain</option>
                                     <option>Autres</option>
                                 </select>
-                                <div class="invalid-feedback">
-                                    Cette contrée est inconnue
-                                </div>
+                                <div class="input-validation"></div>
                             </div>
                         </div>
                         <textarea name="autre" id="autre" placeholder="Exprimez votre demande" rows="7" style="width: 100%;background-color: darkseagreen; padding: 10px"></textarea>
@@ -175,7 +166,7 @@ raphael.galano@isen.yncrea.fr
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-primary" type="submit">Envoyer le formulaire</button>
+                        <button class="btn btn-primary" type="submit">Envoyer le formulaire</button> <!-- Si popup souhaité il faut rajouter un id="btn_envoyer" mais pas conseiller... --->
                     </form>
                 </section>
         
