@@ -9,8 +9,8 @@ and open the template in the editor.
 */
 
 @font-face{
-    font-family: "English";
-    src : url('../css/polices/English.ttf') format("truetype");
+    font-family: "Cardinal";
+    src : url('../css/polices/Cardinal.ttf') format("truetype");
 }
 
 
@@ -30,14 +30,13 @@ and open the template in the editor.
 }
 
 .titre, .txtmusique, .news, .job, .recommandations, .postit1, #desctav, #titrereco, #titreann {
-    font-family: "English";
+    font-family: "Cardinal";
 }
 
 .titre {
     padding-top: 150px;
     text-align: center;
     font-size: 100px;
-    font-family: "English";
 }
 
 .para1, .para2 {
