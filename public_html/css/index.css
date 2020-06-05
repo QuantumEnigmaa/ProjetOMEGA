@@ -22,6 +22,19 @@ and open the template in the editor.
     font-weight: bold;
 }
 
+.carousel-inner {
+    width: 1200px;
+    margin-left: 350px;
+}
+
+.carousel-control-prev{
+    margin-left: 200px;
+}
+
+.carousel-control-next{
+    margin-right: 200px;
+}
+
 #TexteIntro {
     margin-top: 30px;
     display: flex;
@@ -117,8 +130,58 @@ and open the template in the editor.
 
 @media screen and (max-width:768px)     
 {
-    header, section {
-        width: auto;
+    .carousel-inner {
+        height: 800px;
+        width: 100%;
+        margin-left: 0px;
     }
     
+    .carousel-control-prev {
+        margin-right: 0px;
+    }
+
+    .carousel-control-next {
+        margin-left: 0px;
+    }
+    
+    .carousel-control-prev {
+        margin-left: 20px;
+    }
+
+    .carousel-control-next {
+        margin-right: 20px;
+    }
+    
+    .slideTex, .slideText2 {
+        margin-bottom: 50px;
+    }
+    
+    #TexteIntro {
+        flex-direction: column;
+    }
+    
+    #TexteIntro article {
+        padding: 10px;
+    }
+    
+    #Direction {
+        margin-left: 130px;
+    }
+    
+    #TexteIntro aside {
+        margin-left: 40px;
+    }
+    
+    #tabEvenements {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .sousTab {
+        flex-direction: column;
+    }
+    
+    footer {
+        margin-top: 150px;
+    }
 }

@@ -29,7 +29,7 @@ and open the template in the editor.
     background-image: url(../images/nains/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
 }
 
-.titre, .txtmusique, .news, .job, .recommandations, .postit1, #desctav, #titrereco, #titreann {
+.titre, .txtmusique, .news, .job, .recommandations, .postit1, #desctav, #titrereco, #titreann{
     font-family: "PlainGermanica";
 }
 
@@ -154,10 +154,6 @@ and open the template in the editor.
     text-align: left;
     padding: 15px;
 }
-
-/*#nav-profile p {
-    font-family: 'PlainGermanica';
-}*/
 
 #nav-tabContent {
     margin-bottom: 30px;

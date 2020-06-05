@@ -103,14 +103,14 @@ footer a{
         width: auto;
     }
     
-    nav {
-        width: 768px; /* La barre de navigation occupe toute la largeur */
-        height: 80px;
+    body nav {
+        width: 100%; /* La barre de navigation occupe toute la largeur */
+        height: 60px;
     }
-       
+    
     section {
         /*width: 916px;*/
-        width: 400px;
+        width: 100%;
     }
 }
 
