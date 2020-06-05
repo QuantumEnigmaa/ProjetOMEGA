@@ -76,11 +76,6 @@ footer {
     text-align:center; /* Texte centré */
 }
 
- /*
-    Authors     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
-*/
-
-
 .row{
     background-color: gray; /* Couleur de fond */
     text-align: center;
@@ -98,5 +93,24 @@ footer h3 {
 
 footer a{
     color: #2d2d2d; /* Couleur du lien identique à celle du conteneur */
+}
+
+/*________________________ADAPTATION MOBILE______________________________*/
+
+@media screen and (max-width:768px)     
+{
+    header, section {
+        width: auto;
+    }
+    
+    nav {
+        width: 768px; /* La barre de navigation occupe toute la largeur */
+        height: 80px;
+    }
+       
+    section {
+        /*width: 916px;*/
+        width: 400px;
+    }
 }
 
