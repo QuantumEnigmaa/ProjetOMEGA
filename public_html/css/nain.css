@@ -14,6 +14,14 @@ and open the template in the editor.
 }
 
 
+.fond{
+    margin-top: 80px;
+    background-image:url(../images/nains/2697-montagnes-enneigees-WallFizz.jpg);
+    background-attachment:fixed;
+    width: 100%
+}
+
+
 .panneaux {
     margin-left: 380px;
     text-align: center;
@@ -21,7 +29,7 @@ and open the template in the editor.
     background-image: url(../images/nains/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
 }
 
-.titre, .txtmusique, .news, .job, .polrou, .recommandations, .postit1, #desctav, #titrereco, #titreann {
+.titre, .txtmusique, .news, .job, .recommandations, .postit1, #desctav, #titrereco, #titreann, #nav-home-tab, #nav-profile-tab, #nav-home p, #pol1, #pol2, #pol3, #pol4, #pol5, #pol6, #nav-profile p, .rou, #rou1, #rou2, #rou3, #rou4, #rou5, #rou6, #rou7 {
     font-family: "PlainGermanica";
 }
 
