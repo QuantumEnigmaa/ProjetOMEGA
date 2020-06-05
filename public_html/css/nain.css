@@ -159,55 +159,55 @@ and open the template in the editor.
     margin-bottom: 30px;
 }
 /*_______________________________ETOILES_______________________________*/
-#titrereco .classement {
+#etoiles .classement {
     width: 85px; /*Largeur de l'image affichée'*/
     height: 18px; /*hauteur d'une ligne sur l'image totale, si on augmente, on va voir plusieurs lignes*/
-    position: absolute;
+    position: relative;
     bottom: 0;
     object-fit: none;
     margin: 0 39px;
 }
 
-#titrereco .classement.classement00 { 
+#etoiles .classement.classement00 { 
     object-position: 0 0;
 }
 
-#titrereco .classement.classement05 {
+#etoiles .classement.classement05 {
     object-position: 0 -18px;
 }
 
-#titrereco .classement.classement10 {
+#etoiles .classement.classement10 {
     object-position: 0 -36px;
 }
 
-#titrereco .classement.classement15 {
+#etoiles .classement.classement15 {
     object-position: 0 -54px;
 }
 
-#titrereco .classement.classement20 {
+#etoiles .classement.classement20 {
     object-position: 0 -72px;
 }
 
-#titrereco .classement.classement25 {
+#etoiles .classement.classement25 {
     object-position: 0 -90px;
 }
 
-#titrereco .classement.classement30 {
+#etoiles .classement.classement30 {
     object-position: 0 -108px;
 }
 
-#titrereco .classement.classement35 {
+#etoiles .classement.classement35 {
     object-position: 0 -126px;
 }
 
-#titrereco .classement.classement40 {
+#etoiles .classement.classement40 {
     object-position: 0 -144px;
 }
 
-#titrereco .classement.classement45 {
+#etoiles .classement.classement45 {
     object-position:0 -162px;
 }
 
-#titrereco .classement.classement50 {
+#etoiles .classement.classement50 {
     object-position: 0 -180px;
 }

@@ -103,7 +103,7 @@ footer a{
         width: auto;
     }
     
-    body nav {
+    nav {
         width: 100%; /* La barre de navigation occupe toute la largeur */
         height: 60px;
     }
