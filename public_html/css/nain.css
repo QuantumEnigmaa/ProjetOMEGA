@@ -202,3 +202,48 @@ and open the template in the editor.
 #etoiles .classement.classement50 {
     object-position: 0 -180px;
 }
+
+/*________________________ADAPTATION MOBILE______________________________*/
+@media screen and (max-width:768px) {
+    .panneaux {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 7px;
+    }
+    
+    .titre {
+        font-size: 85px;
+    }
+    
+    #phototav {
+        display: none;
+    }
+    
+    .para1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .vidmusique iframe {
+        width: 348px;
+        height: 215px;
+    }
+    
+    .pan1 {
+        margin-left: 18px;
+    }
+    
+    #nav-tab {
+        font-size: 12px;
+    }
+    
+    #nav-profile-tab {
+        margin-left: 165px;
+        margin-bottom: 3px;
+    }
+    
+    #nav-tabContent {
+        margin-top: 30px;
+    }
+}
