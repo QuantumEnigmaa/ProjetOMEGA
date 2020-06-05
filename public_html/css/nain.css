@@ -13,12 +13,14 @@ and open the template in the editor.
     src : url('../css/polices/Plain_Germanica.ttf') format("truetype");
 }
 
+
 .fond{
     margin-top: 80px;
     background-image:url(../images/nains/2697-montagnes-enneigees-WallFizz.jpg);
     background-attachment:fixed;
     width: 100%
 }
+
 
 .panneaux {
     margin-left: 380px;
@@ -27,12 +29,12 @@ and open the template in the editor.
     background-image: url(../images/nains/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
 }
 
-.titre, .txtmusique, .news, .job, .polrou, .recommandations, .postit1, #desctav, #titrereco, #titreann {
+.titre, .txtmusique, .news, .job, .recommandations, .postit1, #desctav, #titrereco, #titreann{
     font-family: "PlainGermanica";
 }
 
 .titre {
-    padding-top: 80px;
+    padding-top: 150px;
     text-align: center;
     font-size: 100px;
     font-family: "PlainGermanica";
@@ -152,10 +154,6 @@ and open the template in the editor.
     text-align: left;
     padding: 15px;
 }
-
-/*#nav-profile p {
-    font-family: 'PlainGermanica';
-}*/
 
 #nav-tabContent {
     margin-bottom: 30px;
