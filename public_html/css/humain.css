@@ -9,18 +9,9 @@ and open the template in the editor.
 */
 
 @font-face{
-    font-family: "English";
-    src : url('../polices/English.ttf') format("truetype");
+    font-family: "Cardinal";
+    src : url('../css/polices/Cardinal.ttf') format("truetype");
 }
-
-
-.fond{
-    margin-top: 80px;
-    background-image:url(../images/nains/2697-montagnes-enneigees-WallFizz.jpg);
-    background-attachment:fixed;
-    width: 100%
-}
-
 
 .panneaux {
     margin-left: 380px;
@@ -30,14 +21,13 @@ and open the template in the editor.
 }
 
 .titre, .txtmusique, .news, .job, .recommandations, .postit1, #desctav, #titrereco, #titreann {
-    font-family: "English";
+    font-family: "Cardinal";
 }
 
 .titre {
     padding-top: 150px;
     text-align: center;
     font-size: 100px;
-    font-family: "English";
 }
 
 .para1, .para2 {
