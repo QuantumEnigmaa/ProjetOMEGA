@@ -4,13 +4,13 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 3 juin 2020, 08:54:26
+    Created on : 5 juin 2020, 14:56:59
     Author     : raphael.galano
 */
 
 @font-face{
-    font-family: "PlainGermanica";
-    src : url('../css/polices/Plain_Germanica.ttf') format("truetype");
+    font-family: "English";
+    src : url('../css/polices/English.ttf') format("truetype");
 }
 
 
@@ -26,18 +26,18 @@ and open the template in the editor.
     margin-left: 380px;
     text-align: center;
     margin-right: 380px;
-    background-image: url(../images/nains/panneau-mural-en-veritable-pierre-naturelle-200-x-100-cm-gris-u-tile.jpg);
+    background-image: url(../images/Humain/Fond-parchemin.jpg);
 }
 
 .titre, .txtmusique, .news, .job, .recommandations, .postit1, #desctav, #titrereco, #titreann {
-    font-family: "PlainGermanica";
+    font-family: "English";
 }
 
 .titre {
     padding-top: 150px;
     text-align: center;
     font-size: 100px;
-    font-family: "PlainGermanica";
+    font-family: "English";
 }
 
 .para1, .para2 {
