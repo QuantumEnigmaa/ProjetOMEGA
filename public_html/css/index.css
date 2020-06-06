@@ -175,7 +175,7 @@ and open the template in the editor.
     }
     
     #TexteIntro aside {
-        margin-left: 40px;
+        align-self: center;
     }
     
     #tabEvenements {
