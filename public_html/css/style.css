@@ -49,6 +49,11 @@ nav {
     align-items: flex-end;
 }
 
+#navbarText input {
+    opacity: 0;
+    position: absolute;
+}
+
 /*_________________________________CAROUSEL________________________________*/
 #carouselExampleCaptions {
     width: 100%;

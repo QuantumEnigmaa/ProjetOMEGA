@@ -225,6 +225,10 @@ and open the template in the editor.
         flex-direction: column;
     }
     
+    .musique {
+        margin-right: 15px;
+    }
+    
     .vidmusique iframe {
         width: 348px;
         height: 215px;

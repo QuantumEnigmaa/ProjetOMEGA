@@ -224,6 +224,10 @@
         flex-direction: column;
     }
     
+    .musique {
+        margin-right: 15px;
+    }
+    
     .vidmusique iframe {
         width: 348px;
         height: 215px;
