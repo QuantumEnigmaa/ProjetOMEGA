@@ -1,12 +1,8 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
-    Created on : 4 juin 2020, 08:54:26
-    Author     : Thibaud VAISSEAU
+    Created on : 2 juin 2020, 15:43:35
+    Author     : luc CHERMETTE, Thibaud VAISSEAU, Raphaël GALANO
 */
+
 function validEnvoi() 
 {
     if (window.document.querySelector("#nom").value === "" && 
